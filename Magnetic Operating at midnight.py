@@ -14,7 +14,7 @@ def sending():
         GPIO.output(13, True)
         time.sleep(.00025)
         GPIO.output(13, False)
-        time.sleep(.00092) 
+        time.sleep(.00092)  #j
         
     def onePresent():
         GPIO.output(15, True)
