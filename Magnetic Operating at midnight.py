@@ -23,7 +23,7 @@ def sending():
         time.sleep(.00025)
         GPIO.output(15, False)
         GPIO.output(13, False)
-        time.sleep(.0007)
+        time.sleep(.0007)#test#
         
     def is_even(num):
         return num % 2 == 0
